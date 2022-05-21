@@ -18,6 +18,6 @@ map fn doc =
 
 placeholder : String -> View msg
 placeholder moduleName =
-    { title = "Placeholder - " ++ moduleName
+    { title = "Perry H: " ++ moduleName
     , body = [ Html.text moduleName ]
     }
